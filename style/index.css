@@ -1,0 +1,154 @@
+body {
+    background-image: url("../img/backgroundv2.png");
+    /* background: linear-gradient(180deg, rgba(57,156,201,1) 0%, rgba(133,193,221,1) 35%, rgba(255,255,255,1) 69%); */
+    height: 100vh;
+    margin: 0; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+/* CERTIFICATION */
+
+.certif {
+    margin-bottom: -10%;
+    margin-left: 3%;
+}
+
+.certif img {
+    width: 7%;
+}
+
+.certif p {
+    margin-top: 0;
+    margin-left: -1.8%;
+    font-size: 1.2em;
+    color:#399CC9;
+    font-family: 'lemon_medium';
+}
+
+/* PRESENTATION */
+
+.presentation {
+    text-align: center;
+}
+
+.presentation h1 {
+    font-size: 2.7em;
+    color: white;
+    font-family: 'lemon_medium';
+}
+
+.presentation p {
+    margin: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'roboto';
+}
+
+/* NOS OFFRES */
+
+#titre_offres {
+    margin-top: 4%;
+    text-align: center;
+    font-family: 'lemon_medium';
+    font-size: 2.3em;
+    color: #399CC9;
+}
+
+.offres {
+    display: flex;
+    text-align: center;
+}
+
+.box_offres {
+    display: flex;
+    flex: 1 4 25%;
+}
+
+.carte_offres {
+    width: 100%;
+    margin: 6%;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.524);
+}
+
+.carte_offres:hover {
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.524);
+}
+
+.carte_offres img {
+    margin: 5%;
+}  
+
+.carte_offres a {
+    text-decoration: none;
+}
+
+.carte_offres p {
+    font-size: 1.3em;
+    color: black;
+    font-family: 'lemon_medium';
+}
+
+/* NOS CLIENTS */
+
+#titre_clients {
+    margin-top: 3%;
+    text-align: center;
+    font-family: 'lemon_medium';
+    font-size: 2.3em;
+    color: #399CC9;
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients img {
+    width: 40%;
+}
+
+/* NOS PARTENAIRES */
+
+#titre_partenaires {
+    margin-top: 3%;
+    text-align: center;
+    font-family: 'lemon_medium';
+    font-size: 2.3em;
+    color: #399CC9;
+}
+
+.partenaires {
+    display: flex;
+    text-align: center;
+}
+
+.box_partenaires {
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.carte_partenaires {
+    width: 100%;
+    height: auto;
+    margin: 1%;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.524);
+}
+
+.carte_partenaires:hover {
+    box-shadow: 7px 7px 7px 7px rgba(0, 0, 0, 0.524);
+}
+
+.carte_partenaires img {
+    width: 100%;
+} 
+

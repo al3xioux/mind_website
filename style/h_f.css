@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'lemon_medium';
+    src: url("../font/lemon_milk/LEMONMILK-Medium.otf");
+}
+
+@font-face {
+    font-family: 'lemon_regular';
+    src: url("../font/lemon_milk/LEMONMILK-Regular.otf");
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url(../font/Roboto/Roboto-Regular.ttf);
+}
+ 
+/* HEADER */
+
+nav {
+    display: flex;
+}
+
+/* BOX 1 */
+
+a {
+    text-decoration: none;
+}
+
+.nav_box1 {
+    display: flex; 
+    flex: 3 10;
+}
+
+.nav_box1 img {
+    margin-left: 2%;
+}
+
+.nav_box1 p {
+    color: white;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-size: 1.3em;
+    font-family: "lemon_medium";
+}
+
+/* BOX 2 */
+
+.nav_box2 {
+    display: flex;
+    flex: 4 10;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_box2 a {
+    margin: 2%;
+    font-size: 1.4em;
+    font-family: "lemon_regular";
+    color: white;
+    text-decoration: none;
+}
+
+/* BOX 3 */
+
+.nav_box3 {
+    display: flex;
+    flex: 3 10;
+    justify-content: right;
+    align-items: center;
+}
+
+.nav_box3 button {
+    margin-right: 3%;
+    font-size: 1.3em;
+    font-family: 'lemon_regular';
+    color: white;
+    width: 40%;
+    height: 55px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #85c1dd4d;
+}
+
+/* FIN HEADER */
+
+/* FOOTER */
+
+footer {
+    position:absolute;
+    display: flex;
+    width: 100%;
+    background-color: #399bc9ce;
+}
+
+/* BOX 1 */
+
+.footer_box1 {
+    display: flex;
+    flex: 1 3;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_box1 a {
+    margin: 2%;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'lemon_regular';
+}
+
+.footer_box1 a {
+    color: white;
+}
+
+/* BOX 2 */
+
+.footer_box2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1 3;
+    align-items: center;
+}
+
+.footer_box2 p {
+    color: white;
+    font-size: 0.8em;
+    font-family: 'lemon_regular';
+    margin: 1.5%;
+}
+
+
+/* BOX 3 */
+
+.footer_box3 {
+    display: flex;
+    flex: 1 3;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_box3 img {
+    width: 18%;
+    margin-top: 1%;
+}
+
+.footer_box3 button {
+    font-size: 1.3em;
+    font-family: 'lemon_regular';
+    color: #399CC9 ;
+    width: 35%;
+    height: 55px;
+    border-style: none;
+    border-radius: 10px;
+}
